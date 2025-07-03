@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SintesisAditiva } from './sintesis-aditiva';
+import { SintesisAditiva } from './aditiva';
 
 describe('SintesisAditiva', () => {
   let component: SintesisAditiva;

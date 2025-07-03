@@ -1,0 +1,17 @@
+.keyboard {
+    margin-top: 2rem;
+    .keys {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .key {
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: center;
+      width: 80px;
+      background-color: #f9f9f9;
+    }
+  }

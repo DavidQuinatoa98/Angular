@@ -1,0 +1,10 @@
+<div class="keyboard">
+    <h3>Teclado (octava desde nota base)</h3>
+    <div class="keys">
+      <div *ngFor="let nota of notasOctava" class="key">
+        <div class="nota">{{ nota.nombre }}</div>
+        <div class="freq">{{ nota.frecuencia }} Hz</div>
+        <div class="tecla">[{{ nota.tecla }}]</div>
+      </div>
+    </div>
+  </div>
